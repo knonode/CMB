@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CMB Spiral Sonification</title>
+    <style>
+        canvas {
+            border: 1px solid black;
+        }
+    </style>
+</head>
+<body>
+    <h1>CMB Sonification</h1>
+    <p>This is the conification of the CMB. Please ensure your audio is on and interact with the image to hear the sound.<br> 
+    The image is a 3000x3000 rendering of the Planck 2018 CMB data. You can use the zoom out function
+of the browser to see the full image. The project is ongoing.</p>
+    <button onclick="testAudio()">Test Audio</button>
+    <canvas id="cmbCanvas" width="3300" height="3300"></canvas>
+    <script src="cosmic.js"></script>
+    <h1>CMB Sonification</h1>
+    <p>The sonification is running in the background. Please ensure your audio is on.</p>
+    <script src="virtual_cosmic.js"></script>
+</body>
+</html>
