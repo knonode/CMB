@@ -12,9 +12,11 @@
 </head>
 <body>
     <h1>CMB Sonification</h1>
-    <p>This is the conification of the CMB. Please ensure your audio is on and interact with the image to hear the sound.<br> 
-    The image is a 3000x3000 rendering of the Planck 2018 CMB data. You can use the zoom out function
-of the browser to see the full image. The project is ongoing.</p>
+    <p>This is the conification of the CMB. Please ensure your audio is on and interact 
+with the image to hear the sound.<br> The image is a 3000x3000 rendering of the Planck 2018 CMB data. 
+You can use the zoom out functionof the browser to see the full image.<br>The running dot that can be hard to follow, 
+is iterating every pixel of the image,<br>and reads the RGB values of the pixels, taking only red and blue values 
+in a range from 0 to 255.<br>The project is ongoing.</p>
     <button onclick="testAudio()">Test Audio</button>
     <canvas id="cmbCanvas" width="3300" height="3300"></canvas>
     <script src="cosmic.js"></script>
